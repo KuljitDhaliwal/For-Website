@@ -3,3 +3,7 @@ const scroll = new LocomotiveScroll({
     smooth: true,
 }
 );
+
+setTimeout(() => {
+    scroll.update();
+  }, 1000);
